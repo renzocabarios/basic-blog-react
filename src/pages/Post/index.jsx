@@ -2,14 +2,18 @@ import * as React from "react";
 import { Button, Typography, YoutubeEmbed } from "../../components";
 
 import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
+import Card from "@mui/material/Card";
+import CardMedia from "@mui/material/CardMedia";
+import CardContent from "@mui/material/CardContent";
+import CardActions from "@mui/material/CardActions";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { DATA } from "../../constants";
 
 export default function () {
   const params = useParams();
+  const navigate = useNavigate();
   const found = DATA.POST.find((element) => element.id == params.id);
   return (
     <>
@@ -51,15 +55,15 @@ export default function () {
       <Container sx={{ py: 8 }} maxWidth="md">
         {/* End hero unit */}
         <Grid container spacing={4}>
-          {/* {cards.map((card) => (
-            <Grid item key={card} xs={12} sm={6} md={4}>
+          {DATA.POST.map((card) => (
+            <Grid item key={card.id} xs={12} sm={6} md={4}>
               <Card
                 sx={{
                   height: "100%",
                   display: "flex",
                   flexDirection: "column",
                 }}
-              > 
+              >
                 <CardMedia
                   component="img"
                   sx={{
@@ -70,21 +74,27 @@ export default function () {
                   alt="random"
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Heading
-                  </Typography>
-                  <Typography>
-                    This is a media card. You can use this section to describe
-                    the content.
-                  </Typography>
+                  <Typography
+                    gutterBottom
+                    variant="h5"
+                    component="h2"
+                    title={card.title}
+                  />
+
+                  <Typography title={card.description}></Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small">View</Button>
-                  <Button size="small">Edit</Button>
+                  <Button
+                    size="small"
+                    title="View"
+                    onClick={() => {
+                      navigate(`/${card.id}`);
+                    }}
+                  />
                 </CardActions>
               </Card>
             </Grid>
-          ))} */}
+          ))}
         </Grid>
       </Container>
     </>
