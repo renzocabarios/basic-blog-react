@@ -1,7 +1,7 @@
 import * as React from "react";
 import Typography from "../Typography";
+import Paper from "../Paper";
 import Link from "@mui/material/Link";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 
