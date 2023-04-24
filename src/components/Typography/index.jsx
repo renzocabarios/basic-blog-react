@@ -12,6 +12,7 @@ export default function (props) {
     title,
     paragraph = false,
     gutterBottom = false,
+    onClick = () => {},
   } = props;
   return (
     <>
@@ -24,6 +25,7 @@ export default function (props) {
         sx={sx}
         paragraph={paragraph}
         gutterBottom={gutterBottom}
+        onClick={() => onClick()}
       >
         {title}
       </Typography>
