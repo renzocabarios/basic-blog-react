@@ -1,7 +1,7 @@
 import * as React from "react";
 import Typography from "../Typography";
 import Paper from "../Paper";
-import Link from "@mui/material/Link";
+import Link from "../Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 
@@ -57,9 +57,7 @@ export default function (props) {
               title={description}
             />
 
-            <Link variant="subtitle1" href="#">
-              {linkText}
-            </Link>
+            <Link variant="subtitle1" href="#" title="Videos"/>
           </Box>
         </Grid>
       </Grid>
