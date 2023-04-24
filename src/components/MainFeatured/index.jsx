@@ -1,6 +1,11 @@
-import React from "react";
+import * as React from "react";
+import Typography from "../Typography";
+import Link from "@mui/material/Link";
+import Paper from "@mui/material/Paper";
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
 
-export default function () {
+export default function (props) {
   const { image, imageText, title, description, linkText } = props;
 
   return (
@@ -41,13 +46,17 @@ export default function () {
               component="h1"
               variant="h3"
               color="inherit"
-              gutterBottom
-            >
-              {title}
-            </Typography>
-            <Typography variant="h5" color="inherit" paragraph>
-              {description}
-            </Typography>
+              gutterBottom={true}
+              title={title}
+            />
+
+            <Typography
+              variant="h5"
+              color="inherit"
+              paragraph={true}
+              title={description}
+            />
+
             <Link variant="subtitle1" href="#">
               {linkText}
             </Link>
