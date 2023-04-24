@@ -1,9 +1,10 @@
 import * as React from "react";
 import Typography from "../Typography";
 import Paper from "../Paper";
-import Link from "@mui/material/Link";
+import Link from "../Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
+import { Title } from "@mui/icons-material";
 
 export default function (props) {
   const { image, imageText, title, description, linkText } = props;
@@ -58,7 +59,7 @@ export default function (props) {
             />
 
             <Link variant="subtitle1" href="#">
-              {linkText}
+              {Title}
             </Link>
           </Box>
         </Grid>
