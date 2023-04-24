@@ -18,9 +18,7 @@ export default function () {
           align="center"
           noWrap
           sx={{ flex: 1 }}
-        >
-          Renzo Blog
-        </Typography>
+        />
         <IconButton>
           <SearchIcon />
         </IconButton>
