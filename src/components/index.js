@@ -1,4 +1,5 @@
 import Button from "./Button";
 import Typography from "./Typography";
+import MainFeatured from "./MainFeatured";
 
-export { Button, Typography };
+export { MainFeatured, Button, Typography };
