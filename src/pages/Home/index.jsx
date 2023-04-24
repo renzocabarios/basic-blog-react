@@ -1,9 +1,8 @@
 import * as React from "react";
 import Toolbar from "@mui/material/Toolbar";
-import { Button } from "../../components";
+import { Button, Typography } from "../../components";
 import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
-import { Typography } from "../../components";
 import Link from "@mui/material/Link";
 
 export default function () {
@@ -17,6 +16,7 @@ export default function () {
           color="inherit"
           align="center"
           noWrap
+          title="Renzo Blog"
           sx={{ flex: 1 }}
         />
         <IconButton>

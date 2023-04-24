@@ -2,7 +2,7 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 
 export default function (props) {
-  const { component, variant, color, align, noWrap, sx} = props;
+  const { component, variant, color, align, noWrap, sx, title } = props;
   return (
     <>
       <Typography
@@ -12,7 +12,9 @@ export default function (props) {
         align={align}
         noWrap={noWrap}
         sx={sx}
-      >Renzo Blog</Typography>
+      >
+        {title}
+      </Typography>
     </>
   );
 }
