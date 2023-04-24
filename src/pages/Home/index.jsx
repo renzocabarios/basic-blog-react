@@ -13,6 +13,7 @@ import Grid from "@mui/material/Grid";
 export default function () {
   const featured = [
     {
+      id:0,
       title: "Computer Hardware System",
       date: "Feb 1",
       description:
@@ -21,6 +22,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:1,
       title: "Number System",
       date: "Feb 8",
       description:
@@ -29,6 +31,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:2,
       title: "Data Formats",
       date: "Feb 8",
       description:
@@ -37,6 +40,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:3,
       title: "Operating Systems",
       date: "Feb 8",
       description:
@@ -45,6 +49,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:4,
       title: "Computing Platforms",
       date: "Feb 15",
       description:
@@ -53,6 +58,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:5,
       title: "Mobile and Games Platforms",
       date: "Feb 15",
       description:
@@ -61,6 +67,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:6,
       title: "Storage Platforms",
       date: "Feb 22",
       description:
@@ -69,6 +76,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:7,
       title: "Database Platforms",
       date: "Feb 22",
       description:
@@ -77,6 +85,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:8,
       title: "Application Platforms",
       date: "Mar 8",
       description:
@@ -85,6 +94,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:9,
       title: "Web Platforms",
       date: "Mar 15",
       description:
@@ -93,6 +103,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:10,
       title: "Content Management Systems",
       date: "Mar 15",
       description:
@@ -101,6 +112,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:11,
       title: "Analytics",
       date: "Mar 29",
       description:
@@ -109,6 +121,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:12,
       title: "AI Platforms",
       date: "Mar 29",
       description:
@@ -117,6 +130,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:13,
       title: "Media Platforms",
       date: "Apr 12",
       description:
@@ -125,6 +139,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:14,
       title: "Internet of Things",
       date: "Apr 12",
       description:
@@ -133,6 +148,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:15,
       title: "Security",
       date: "Apr 19",
       description:
@@ -141,6 +157,7 @@ export default function () {
       imageLabel: "Image Text",
     },
     {
+      id:16,
       title: "Finals: Website of Different Computer System Platforms",
       date: "Apr 26",
       description:
