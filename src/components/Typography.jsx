@@ -13,9 +13,7 @@ export default function (props) {
         noWrap={noWrap}
         sx={sx}
         size={size}
-      >
-        {" "}
-      </Typography>
+      ></Typography>
     </>
   );
 }
