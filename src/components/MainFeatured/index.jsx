@@ -4,7 +4,6 @@ import Paper from "../Paper";
 import Link from "../Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import { Title } from "@mui/icons-material";
 
 export default function (props) {
   const { image, imageText, title, description, linkText } = props;
@@ -58,9 +57,7 @@ export default function (props) {
               title={description}
             />
 
-            <Link variant="subtitle1" href="#">
-              {Title}
-            </Link>
+            <Link variant="subtitle1" href="#" title="Videos"/>
           </Box>
         </Grid>
       </Grid>
