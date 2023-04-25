@@ -144,12 +144,5 @@ export default {
       image: "https://source.unsplash.com/random",
       embedId: "S41S3pMz5wE",
     },
-    {
-      id: 16,
-      title: "Finals: Website of Different Computer System Platforms",
-      date: "Apr 26",
-      description: "Website of Different Computer System Platforms.",
-      image: "https://source.unsplash.com/random",
-    },
   ],
 };
