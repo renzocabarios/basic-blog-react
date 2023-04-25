@@ -4,10 +4,11 @@ import Paper from "../Paper";
 import Link from "../Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-
+import Button from "../Button";
+import { useNavigate } from "react-router-dom";
 export default function (props) {
-  const { image, imageText, title, description, linkText } = props;
-
+  const { id, image, imageText, title, description } = props;
+  const navigate = useNavigate();
   return (
     <Paper
       sx={{
@@ -56,8 +57,12 @@ export default function (props) {
               paragraph={true}
               title={description}
             />
-
-            <Link variant="subtitle1" href="#" title="Videos"/>
+            <Button
+              onClick={() => {
+                navigate(`/${id}`);
+              }}
+              title="View"
+            ></Button>
           </Box>
         </Grid>
       </Grid>

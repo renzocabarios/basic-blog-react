@@ -13,6 +13,8 @@ import Grid from "@mui/material/Grid";
 import { DATA } from "../../constants";
 
 export default function () {
+  const random = Math.floor(Math.random() * DATA.POST.length);
+  const main = DATA.POST.find((element) => element.id == random);
   return (
     <>
       <Toolbar sx={{ borderBottom: 1, borderColor: "divider" }}>
@@ -38,11 +40,9 @@ export default function () {
       ></Toolbar>
       <Container maxWidth="lg">
         <MainFeatured
-          title="Title of a longer featured blog post"
-          image="https://source.unsplash.com/random"
-          imageText="main image description"
-          linkText="Continue reading…"
-          description="Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents."
+          title={main.title}
+          id={main.id}
+          description={main.description}
         />
         <Grid container spacing={4}>
           {DATA.POST.map((post) => (
