@@ -7,7 +7,7 @@ export default {
       description:
         "Create a content in your site about computer / desktop build system, and laptop.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "u2qq4CQlPeU",
     },
     {
       id: 1,
@@ -16,7 +16,7 @@ export default {
       description:
         "Create a content in your site about number systems and its applications in computing.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "1NHkImyPla8",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export default {
       description:
         "Create a content in your site about data formats, and its different technologies applied for.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "r5WrplSWan4",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ export default {
       description:
         "Create a content in your site about Operating Systems, and its different platform technologies applied for.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "OQ_08xXFkbw",
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ export default {
       description:
         "Platforms that offer computing capabilities in areas such as cloud computing and virtualization by building on top of operating systems. Consider a cloud computing platform that allows you to scale your services as required by adding and removing virtual machines.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "WJlKqYSERAo",
     },
     {
       id: 5,
@@ -52,7 +52,7 @@ export default {
       description:
         "Mobile platforms provide operating systems and development environments for mobile applications. Cloud systems for developing mobile backends that offer services to mobile users are also included. This may include specialized APIs for location services and voice recognition, which are useful for mobile app developers. Backends for mobile games and massively multiplayer online games are examples of environments that are designed for operating game services. 3D game engines, AR, and VR APIs are examples of such facilities.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "o3ruC715gjk",
     },
     {
       id: 6,
@@ -61,7 +61,7 @@ export default {
       description:
         "Platforms for scalable object and file storage, including APIs and value-added features such as scalable storage with multiple backups.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "JEr97wWbQLI",
     },
     {
       id: 7,
@@ -70,7 +70,7 @@ export default {
       description:
         "Platforms for deploying and maintaining various database types, including relational, NoSQL, and in-memory databases, in a local, corporate server, even in the cloud.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "8fMqbib1bdM",
     },
     {
       id: 8,
@@ -79,7 +79,7 @@ export default {
       description:
         "Application platforms are environments and development tools for designing and delivering applications, a type of software primarily intended for human use. A framework that allows developers to create complex web applications by executing code and integrating with databases, frameworks, and APIs, for example.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "b-kIiqfIMaM",
     },
     {
       id: 9,
@@ -88,7 +88,7 @@ export default {
       description:
         "Web servers, web application servers, content delivery networks, and edge computing are examples of platforms that offer applications that are useful to websites and web-based apps as a service.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "",
     },
     {
       id: 10,
@@ -97,7 +97,7 @@ export default {
       description:
         "Content, media, and document publishing and management platforms. These are often used as an intranet site and document management system within organizations. They're also used to publish web content like a newspaper, blog, or corporate website.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "",
     },
     {
       id: 11,
@@ -106,7 +106,7 @@ export default {
       description:
         "Data capture, editing, analysis, and visualization services. Tools for ingesting, encoding, querying, and handling big data may be included.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "",
     },
     {
       id: 12,
@@ -115,7 +115,7 @@ export default {
       description:
         "Voice synthesis services and tools for creating your own AI, such as a machine learning API, are examples of AI-based services. This may also include machine learning-optimized environments for running your AI, such as a machine learning database.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "",
     },
     {
       id: 13,
@@ -124,7 +124,7 @@ export default {
       description:
         "Tools such as video transcoding, downloading, and acknowledgement are available on platforms for media publishing and research.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "",
     },
     {
       id: 14,
@@ -133,7 +133,7 @@ export default {
       description:
         "Computer operating systems and cloud platforms with specialized APIs for internet of things in areas like device management, IoT protection, and analytics are examples of internet of things platforms.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "",
     },
     {
       id: 15,
@@ -142,7 +142,7 @@ export default {
       description:
         "Firewalls, identity and access protection, directory services, licenses, enforcement monitoring, encryption, key management, and threat detection are examples of security services.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "",
     },
     {
       id: 16,
@@ -150,7 +150,7 @@ export default {
       date: "Apr 26",
       description: "Website of Different Computer System Platforms.",
       image: "https://source.unsplash.com/random",
-      imageLabel: "Image Text",
+      embedId: "",
     },
   ],
 };
