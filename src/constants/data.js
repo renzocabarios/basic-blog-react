@@ -88,7 +88,7 @@ export default {
       description:
         "Web servers, web application servers, content delivery networks, and edge computing are examples of platforms that offer applications that are useful to websites and web-based apps as a service.",
       image: "https://source.unsplash.com/random",
-      embedId: "",
+      embedId: "cT7t3OV0Iqg",
     },
     {
       id: 10,
@@ -97,7 +97,7 @@ export default {
       description:
         "Content, media, and document publishing and management platforms. These are often used as an intranet site and document management system within organizations. They're also used to publish web content like a newspaper, blog, or corporate website.",
       image: "https://source.unsplash.com/random",
-      embedId: "",
+      embedId: "OXu5JM3Upqs",
     },
     {
       id: 11,
@@ -106,7 +106,7 @@ export default {
       description:
         "Data capture, editing, analysis, and visualization services. Tools for ingesting, encoding, querying, and handling big data may be included.",
       image: "https://source.unsplash.com/random",
-      embedId: "",
+      embedId: "CXVIF2AuQTs",
     },
     {
       id: 12,
@@ -115,7 +115,7 @@ export default {
       description:
         "Voice synthesis services and tools for creating your own AI, such as a machine learning API, are examples of AI-based services. This may also include machine learning-optimized environments for running your AI, such as a machine learning database.",
       image: "https://source.unsplash.com/random",
-      embedId: "",
+      embedId: "63ECIGj3ji0",
     },
     {
       id: 13,
@@ -124,7 +124,7 @@ export default {
       description:
         "Tools such as video transcoding, downloading, and acknowledgement are available on platforms for media publishing and research.",
       image: "https://source.unsplash.com/random",
-      embedId: "",
+      embedId: "AibPxqCvbgg",
     },
     {
       id: 14,
@@ -133,7 +133,7 @@ export default {
       description:
         "Computer operating systems and cloud platforms with specialized APIs for internet of things in areas like device management, IoT protection, and analytics are examples of internet of things platforms.",
       image: "https://source.unsplash.com/random",
-      embedId: "",
+      embedId: "JTU7QtUcrnY",
     },
     {
       id: 15,
@@ -142,7 +142,7 @@ export default {
       description:
         "Firewalls, identity and access protection, directory services, licenses, enforcement monitoring, encryption, key management, and threat detection are examples of security services.",
       image: "https://source.unsplash.com/random",
-      embedId: "",
+      embedId: "S41S3pMz5wE",
     },
     {
       id: 16,
@@ -150,7 +150,6 @@ export default {
       date: "Apr 26",
       description: "Website of Different Computer System Platforms.",
       image: "https://source.unsplash.com/random",
-      embedId: "",
     },
   ],
 };
