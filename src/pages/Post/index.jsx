@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Button, Typography, YoutubeEmbed } from "../../components";
+import { Button, Typography, YoutubeEmbed, Navbar } from "../../components";
 
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
@@ -17,6 +17,7 @@ export default function () {
   const found = DATA.POST.find((element) => element.id == params.id);
   return (
     <>
+      <Navbar />
       <Box
         sx={{
           bgcolor: "background.paper",

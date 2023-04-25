@@ -4,5 +4,13 @@ import Link from "./Link";
 import MainFeatured from "./MainFeatured";
 import FeaturedPost from "./FeaturedPost";
 import YoutubeEmbed from "./YoutubeEmbed";
-
-export { YoutubeEmbed, FeaturedPost, MainFeatured, Button, Typography, Link };
+import Navbar from "./Navbar";
+export {
+  Navbar,
+  YoutubeEmbed,
+  FeaturedPost,
+  MainFeatured,
+  Button,
+  Typography,
+  Link,
+};
