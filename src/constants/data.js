@@ -5,7 +5,7 @@ export default {
       title: "Computer Hardware System",
       date: "Feb 1",
       description:
-        "Create a content in your site about computer / desktop build system, and laptop.",
+        "Create material for your website regarding laptops, desktop computers, and other related topics.",
       image: "https://source.unsplash.com/random",
       embedId: "u2qq4CQlPeU",
     },
@@ -14,7 +14,7 @@ export default {
       title: "Number System",
       date: "Feb 8",
       description:
-        "Create a content in your site about number systems and its applications in computing.",
+        "Create a page on your website with content regarding number systems and how they are used in computing.",
       image: "https://source.unsplash.com/random",
       embedId: "1NHkImyPla8",
     },
@@ -23,7 +23,7 @@ export default {
       title: "Data Formats",
       date: "Feb 8",
       description:
-        "Create a content in your site about data formats, and its different technologies applied for.",
+        "Create content for your website regarding data formats and the many technologies used to support them.",
       image: "https://source.unsplash.com/random",
       embedId: "r5WrplSWan4",
     },
@@ -32,7 +32,7 @@ export default {
       title: "Operating Systems",
       date: "Feb 8",
       description:
-        "Create a content in your site about Operating Systems, and its different platform technologies applied for.",
+        "Create a page on your website with content about operating systems and the many platform technologies they support.",
       image: "https://source.unsplash.com/random",
       embedId: "OQ_08xXFkbw",
     },
@@ -41,7 +41,7 @@ export default {
       title: "Computing Platforms",
       date: "Feb 15",
       description:
-        "Platforms that offer computing capabilities in areas such as cloud computing and virtualization by building on top of operating systems. Consider a cloud computing platform that allows you to scale your services as required by adding and removing virtual machines.",
+        "platforms that, by building on top of operating systems, provide computing capabilities in fields like cloud computing and virtualization. Think about a cloud computing platform that enables you to add and remove virtual machines to grow your services as necessary.",
       image: "https://source.unsplash.com/random",
       embedId: "WJlKqYSERAo",
     },
@@ -50,7 +50,7 @@ export default {
       title: "Mobile and Games Platforms",
       date: "Feb 15",
       description:
-        "Mobile platforms provide operating systems and development environments for mobile applications. Cloud systems for developing mobile backends that offer services to mobile users are also included. This may include specialized APIs for location services and voice recognition, which are useful for mobile app developers. Backends for mobile games and massively multiplayer online games are examples of environments that are designed for operating game services. 3D game engines, AR, and VR APIs are examples of such facilities.",
+        "Operating systems and development environments for mobile applications are provided by mobile platforms. Also included are cloud-based platforms for creating mobile backends that provide services to mobile users. This might include specific APIs for speech recognition and location services, which are helpful to those who create mobile apps. Massively multiplayer online games and mobile game backends are two examples of ecosystems made for running game services. Such tools include 3D gaming engines, augmented reality, and virtual reality APIs.",
       image: "https://source.unsplash.com/random",
       embedId: "o3ruC715gjk",
     },
@@ -59,7 +59,7 @@ export default {
       title: "Storage Platforms",
       date: "Feb 22",
       description:
-        "Platforms for scalable object and file storage, including APIs and value-added features such as scalable storage with multiple backups.",
+        "platforms with value-added features like scalable storage with multiple backups and APIs for scalable object and file storage.",
       image: "https://source.unsplash.com/random",
       embedId: "JEr97wWbQLI",
     },
@@ -68,7 +68,7 @@ export default {
       title: "Database Platforms",
       date: "Feb 22",
       description:
-        "Platforms for deploying and maintaining various database types, including relational, NoSQL, and in-memory databases, in a local, corporate server, even in the cloud.",
+        "platforms for setting up and maintaining different kinds of databases, including as relational, NoSQL, and in-memory databases, on a local server for your company or even in the cloud.",
       image: "https://source.unsplash.com/random",
       embedId: "8fMqbib1bdM",
     },
@@ -86,7 +86,7 @@ export default {
       title: "Web Platforms",
       date: "Mar 15",
       description:
-        "Web servers, web application servers, content delivery networks, and edge computing are examples of platforms that offer applications that are useful to websites and web-based apps as a service.",
+        "Platforms that provide applications that benefit websites and web-based apps as a service include web servers, web application servers, content delivery networks, and edge computing.",
       image: "https://source.unsplash.com/random",
       embedId: "cT7t3OV0Iqg",
     },
@@ -95,7 +95,7 @@ export default {
       title: "Content Management Systems",
       date: "Mar 15",
       description:
-        "Content, media, and document publishing and management platforms. These are often used as an intranet site and document management system within organizations. They're also used to publish web content like a newspaper, blog, or corporate website.",
+        "platforms for posting and managing content, media, and documents. These are frequently used in enterprises as document management systems and intranet sites. They can also be used to publish web content for websites like blogs, newspapers, and business websites.",
       image: "https://source.unsplash.com/random",
       embedId: "OXu5JM3Upqs",
     },
@@ -104,7 +104,7 @@ export default {
       title: "Analytics",
       date: "Mar 29",
       description:
-        "Data capture, editing, analysis, and visualization services. Tools for ingesting, encoding, querying, and handling big data may be included.",
+        "Services for data collection, editing, analysis, and visualization. It is possible to incorporate tools for consuming, encoding, querying, and managing huge data.",
       image: "https://source.unsplash.com/random",
       embedId: "CXVIF2AuQTs",
     },
@@ -113,7 +113,7 @@ export default {
       title: "AI Platforms",
       date: "Mar 29",
       description:
-        "Voice synthesis services and tools for creating your own AI, such as a machine learning API, are examples of AI-based services. This may also include machine learning-optimized environments for running your AI, such as a machine learning database.",
+        "Services based on AI include tools for building your own AI, like a machine learning API, and voice synthesis services. This might also contain environments for executing your AI that are designed for machine learning, like a machine learning database.",
       image: "https://source.unsplash.com/random",
       embedId: "63ECIGj3ji0",
     },
@@ -131,7 +131,7 @@ export default {
       title: "Internet of Things",
       date: "Apr 12",
       description:
-        "Computer operating systems and cloud platforms with specialized APIs for internet of things in areas like device management, IoT protection, and analytics are examples of internet of things platforms.",
+        "Internet of things platforms include computer operating systems and cloud platforms with specialized APIs for IoT in areas like device management, IoT security, and analytics.",
       image: "https://source.unsplash.com/random",
       embedId: "JTU7QtUcrnY",
     },
@@ -140,7 +140,7 @@ export default {
       title: "Security",
       date: "Apr 19",
       description:
-        "Firewalls, identity and access protection, directory services, licenses, enforcement monitoring, encryption, key management, and threat detection are examples of security services.",
+        "Security services include firewalls, identity and access protection, directory services, licenses, enforcement monitoring, encryption, key management, and threat detection.",
       image: "https://source.unsplash.com/random",
       embedId: "S41S3pMz5wE",
     },
